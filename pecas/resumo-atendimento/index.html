@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resumo de atendimento — fluxo automático</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono&family=Sora:wght@600;700&display=swap">
+<link rel="stylesheet" href="../../assets/lab.css">
+<link href="https://inematds.github.io/prof2030-lab/pecas/resumo-atendimento/" hreflang="pt-BR" rel="alternate"/><link href="https://inematds.github.io/prof2030-lab/en/pecas/resumo-atendimento/" hreflang="en" rel="alternate"/><link href="https://inematds.github.io/prof2030-lab/es/pecas/resumo-atendimento/" hreflang="es" rel="alternate"/>
+</head>
+<body>
+<div class="inema-lang" style="position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;gap:2px;padding:4px;border-radius:10px;background:rgba(12,12,16,.82);border:1px solid rgba(226,162,59,.45);font:600 12px/1 Sora,Inter,system-ui,sans-serif;backdrop-filter:blur(8px)" translate="no"><a href="./" hreflang="pt-BR" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#1a1206;background:#E2A23B">PT</a><a href="../../en/pecas/resumo-atendimento/" hreflang="en" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">EN</a><a href="../../es/pecas/resumo-atendimento/" hreflang="es" style="padding:6px 8px;border-radius:7px;text-decoration:none;color:#e9e9ee">ES</a></div>
+<header class="top"><div class="wrap">
+  <a class="marca" href="../../">Horizonte <b>Distribuidora</b></a>
+  <nav class="top"><a href="../../#pecas">Todas as peças</a></nav>
+</div></header>
+<main class="wrap">
+  <span class="chip">Peça · Resumo de atendimento</span>
+  <h1>Resumo diário de atendimento</h1>
+  <p class="txt">A Juliana não dava conta de ler 200 conversas por dia. O Rafael achou um serviço gratuito de IA que resume texto e montou uma automação: todo dia às 18 h as conversas vão para lá e o resumo volta por e-mail. "Economizou duas horas por dia."</p>
+
+  <h2>Como o fluxo funciona</h2>
+  <div class="fluxo" role="img" aria-label="Conversas do WhatsApp vão para o serviço ResumeFast AI, que devolve o resumo para a Juliana">
+    <div class="no">💬 Conversas do WhatsApp<br><span class="mut">nome, telefone, endereço, CPF, áudios</span></div>
+    <span class="seta">→</span>
+    <div class="no">⚙️ Automação 18 h<br><span class="mut">montada pelo Rafael</span></div>
+    <span class="seta">→</span>
+    <div class="no">🌐 ResumeFast AI<br><span class="mut">plano gratuito, servidor fora do Brasil</span></div>
+    <span class="seta">→</span>
+    <div class="no">📧 Resumo para a Juliana<br><span class="mut">e-mail + grupo de WhatsApp</span></div>
+  </div>
+
+  <h2>Exemplo de resumo recebido</h2>
+  <pre>Cliente: Hotel Fazenda Recanto (Marcos, (19) 90000-0103)
+Assunto: pedido mensal grande, pediu entrega na portaria 2.
+Sentimento: positivo. Próximo passo: confirmar entrega sexta.</pre>
+
+  <h2>Arquivo do fluxo</h2>
+  <div class="arquivos"><a href="fluxo.json">fluxo.json</a></div>
+  <pre data-arquivo="fluxo.json">carregando…</pre>
+</main>
+<footer><div class="wrap">Horizonte Distribuidora e ResumeFast AI são fictícios. Nenhum dado é enviado a lugar nenhum.</div></footer>
+<a class="selo-lab" href="../../">Isto é um laboratório de estudo</a>
+<script src="../../assets/lab.js"></script>
+</body>
+</html>
