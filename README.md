@@ -6,9 +6,9 @@
 </div>
 
 
-LaboratêÂ³rio de estudo do **Profissional 2030** (INEMA.CLUB, aberto e gratuito): uma empresa **fictêÂ­cia** de 40 pessoas com **12 falhas de IA plantadas de propêÂ³sito**, para treinar auditoria, consultoria e adoêÂ§êÂ£o segura de IA.
+LaboratêÂ³rio de estudo do **Profissional 2030** (ARCKHÉ AI, aberto e gratuito): uma empresa **fictêÂ­cia** de 40 pessoas com **12 falhas de IA plantadas de propêÂ³sito**, para treinar auditoria, consultoria e adoêÂ§êÂ£o segura de IA.
 
-Site: https://inematds.github.io/prof2030-lab/ êÂ· Programa: https://inematds.github.io/profissional-2030/
+Site: https://linnoff88-dev.github.io/arckhe-/ êÂ· Programa: https://linnoff88-dev.github.io/arckhe-/
 
 > **Tudo aqui êÂ© falso e proposital.** NêÂ£o hêÂ¡ servidor, banco de dados nem dado real. Chaves (`FAKE-EXEMPLO`), CPFs (invêÂ¡lidos), telefones, pessoas e empresas sêÂ£o inventados. Site estêÂ¡tico: HTML, CSS e JS puro, sem build.
 
