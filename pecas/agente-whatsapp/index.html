@@ -17,7 +17,7 @@
 <main class="wrap">
   <span class="chip">Peça · Agente de WhatsApp</span>
   <h1>Agente "Hora"</h1>
-  <p class="txt">Vendedor automático no WhatsApp desde julho. O Carlos adora: "vende de madrugada e não pede comissão". A Juliana exportou as conversas da semana a pedido do financeiro.</p>
+  <p class="txt">Vendedor automático no WhatsApp desde julho. O Carlos adora: "vende de madrugada e nêo pede comissêo". A Juliana exportou as conversas da semana a pedido do financeiro.</p>
 
   <h2>Conversas da semana</h2>
   <div id="conversas" class="grade"><p class="mut">carregando conversas…</p></div>
@@ -29,7 +29,7 @@
   <details open><summary>prompt-do-agente.md</summary><pre data-arquivo="prompt-do-agente.md">carregando…</pre></details>
   <details><summary>agente-config.json</summary><pre data-arquivo="agente-config.json">carregando…</pre></details>
 </main>
-<footer><div class="wrap">Horizonte Distribuidora é fictícia. Conversas, clientes e números desta página são inventados.</div></footer>
+<footer><div class="wrap">Horizonte Distribuidora é fictícia. Conversas, clientes e números desta página sêo inventados.</div></footer>
 <a class="selo-lab" href="../../">Isto é um laboratório de estudo</a>
 <script src="../../assets/lab.js"></script>
 <script>
@@ -40,7 +40,7 @@
     alvo.innerHTML=d.conversas.map(function(c){
       return '<div><h3>'+esc(c.cliente)+' <span class="mut" style="font-size:.85rem">· '+esc(c.data)+'</span></h3><div class="zap">'+
         c.mensagens.map(function(m){
-          return '<div class="msg '+(m.de==='agente'?'bot':'cli')+'">'+esc(m.texto)+'<small>'+esc(m.hora)+(m.acao?' · ação: '+esc(m.acao):'')+'</small></div>';
+          return '<div class="msg '+(m.de==='agente'?'bot':'cli')+'">'+esc(m.texto)+'<small>'+esc(m.hora)+(m.acao?' · açêo: '+esc(m.acao):'')+'</small></div>';
         }).join('')+'</div></div>';
     }).join('');
   }).catch(function(){alvo.innerHTML='<p>Abra o arquivo <a href="conversas.json">conversas.json</a>.</p>';});

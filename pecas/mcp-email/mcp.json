@@ -1,5 +1,5 @@
 {
-  "_laboratorio": "Configuração MCP fictícia para estudo. O servidor e o pacote citados não existem; não tente instalar.",
+  "_laboratorio": "Configuraçêo MCP fictícia para estudo. O servidor e o pacote citados nêo existem; nêo tente instalar.",
   "mcpServers": {
     "email-comercial": {
       "command": "npx",

@@ -2,7 +2,7 @@
   "name": "horizonte-pedidos",
   "version": "0.9.0",
   "private": true,
-  "description": "App de pedidos da Horizonte Distribuidora (LABORATÓRIO FICTÍCIO — não instale)",
+  "description": "App de pedidos da Horizonte Distribuidora (LABORATÓRIO FICTÍCIO — nêo instale)",
   "scripts": {
     "dev": "echo 'laboratorio: nada para rodar'"
   },

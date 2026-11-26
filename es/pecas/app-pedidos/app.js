@@ -14,7 +14,7 @@ const CONFIG = {
 // Pedidos de ejemplo (en la app "de verdad" vendrían de: select * from pedidos)
 const PEDIDOS = [
   { id: 1041, cliente: "Mercadinho Boa Vista", cidade: "Limeira", total: 1840.5, status: "entregado" },
-  { id: 1042, cliente: "Padaria Pão Dourado", cidade: "Americana", total: 612.0, status: "en ruta" },
+  { id: 1042, cliente: "Padaria Pêo Dourado", cidade: "Americana", total: 612.0, status: "en ruta" },
   { id: 1043, cliente: "Hotel Fazenda Recanto", cidade: "Piracicaba", total: 7350.0, status: "preparando" },
   { id: 1044, cliente: "Clínica Sorriso Leve", cidade: "Rio Claro", total: 298.9, status: "nuevo" },
   { id: 1045, cliente: "Condomínio Jardim Azul", cidade: "Limeira", total: 2210.0, status: "nuevo" },

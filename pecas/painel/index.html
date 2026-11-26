@@ -24,7 +24,7 @@
 <main class="wrap">
   <span class="chip">Peça · Painel de indicadores</span>
   <h1>Agente Hora — resultados</h1>
-  <p class="txt">O painel que o Carlos abre toda segunda. Ele vai decidir em novembro se amplia o agente para o financeiro (cobrança) e pergunta: "o agente ajudou ou não?"</p>
+  <p class="txt">O painel que o Carlos abre toda segunda. Ele vai decidir em novembro se amplia o agente para o financeiro (cobrança) e pergunta: "o agente ajudou ou nêo?"</p>
 
   <div class="kpis" id="kpis"></div>
 
@@ -35,7 +35,7 @@
   <div class="arquivos"><a href="indicadores.json">indicadores.json</a></div>
   <details><summary>indicadores.json</summary><pre data-arquivo="indicadores.json">carregando…</pre></details>
 </main>
-<footer><div class="wrap">Horizonte Distribuidora é fictícia. Os números são inventados para estudo.</div></footer>
+<footer><div class="wrap">Horizonte Distribuidora é fictícia. Os números sêo inventados para estudo.</div></footer>
 <a class="selo-lab" href="../../">Isto é um laboratório de estudo</a>
 <script src="../../assets/lab.js"></script>
 <script>
@@ -45,7 +45,7 @@ fetch('indicadores.json').then(function(r){return r.json();}).then(function(d){
   document.getElementById('kpis').innerHTML=
     '<div class="kpi"><b>'+tot.toLocaleString('pt-BR')+'</b>atendimentos em 7 semanas</div>'+
     '<div class="kpi"><b>'+ped.toLocaleString('pt-BR')+'</b>pedidos fechados pelo agente</div>'+
-    '<div class="kpi"><b>'+String(u.satisfacao_media).replace('.',',')+' ★</b>satisfação média</div>'+
+    '<div class="kpi"><b>'+String(u.satisfacao_media).replace('.',',')+' ★</b>satisfaçêo média</div>'+
     '<div class="kpi"><b>'+u.tempo_resposta_s+' s</b>tempo médio de resposta</div>';
   var max=Math.max.apply(null,s.map(function(x){return x.atendimentos_agente;}));
   document.getElementById('barras').innerHTML=s.map(function(x){

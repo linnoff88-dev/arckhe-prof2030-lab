@@ -1,5 +1,5 @@
 // Horizonte Pedidos — app.js
-// Feito pelo Rafael com ajuda de IA ("vibe coding"). Versão 0.9 — "depois a gente arruma".
+// Feito pelo Rafael com ajuda de IA ("vibe coding"). Versêo 0.9 — "depois a gente arruma".
 // LABORATÓRIO: arquivo fictício. Nenhuma chave aqui é real e nada é enviado a lugar nenhum.
 
 const CONFIG = {
@@ -14,7 +14,7 @@ const CONFIG = {
 // Pedidos de exemplo (no app "de verdade" viriam de: select * from pedidos)
 const PEDIDOS = [
   { id: 1041, cliente: "Mercadinho Boa Vista", cidade: "Limeira", total: 1840.5, status: "entregue" },
-  { id: 1042, cliente: "Padaria Pão Dourado", cidade: "Americana", total: 612.0, status: "em rota" },
+  { id: 1042, cliente: "Padaria Pêo Dourado", cidade: "Americana", total: 612.0, status: "em rota" },
   { id: 1043, cliente: "Hotel Fazenda Recanto", cidade: "Piracicaba", total: 7350.0, status: "separando" },
   { id: 1044, cliente: "Clínica Sorriso Leve", cidade: "Rio Claro", total: 298.9, status: "novo" },
   { id: 1045, cliente: "Condomínio Jardim Azul", cidade: "Limeira", total: 2210.0, status: "novo" },
@@ -30,7 +30,7 @@ function sugerirProdutos(carrinho) {
     headers: { Authorization: "Bearer " + CONFIG.openaiApiKey },
     body: JSON.stringify({ model: CONFIG.modelo, carrinho: carrinho }),
   });
-  // (no laboratório esta função nunca é chamada)
+  // (no laboratório esta funçêo nunca é chamada)
 }
 
 function brl(v) {

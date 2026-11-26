@@ -1,5 +1,5 @@
 {
-  "_laboratorio": "Fluxo de automação fictício para estudo. O serviço 'ResumeFast AI' e o endereço abaixo não existem.",
+  "_laboratorio": "Fluxo de automaçêo fictício para estudo. O serviço 'ResumeFast AI' e o endereço abaixo nêo existem.",
   "nome": "Resumo diário de atendimento",
   "criado_por": "Rafael",
   "gatilho": { "tipo": "agendado", "quando": "todo dia 18:00" },
@@ -15,7 +15,7 @@
       "acao": "enviar_para_resumo",
       "servico": "ResumeFast AI (plano gratuito)",
       "endpoint": "https://api.resumefast-ficticio.invalid/v1/summarize",
-      "pais_do_servidor": "fora do Brasil (não informado no site do fornecedor)",
+      "pais_do_servidor": "fora do Brasil (nêo informado no site do fornecedor)",
       "contrato_assinado": false,
       "termos_de_uso": "aceitos no cadastro: o fornecedor pode usar os dados enviados para melhorar seus modelos",
       "anonimizar_antes": false

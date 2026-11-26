@@ -12,6 +12,6 @@
     { "semana": "2026-10-06", "atendimentos_agente": 879, "pedidos_fechados": 171, "satisfacao_media": 4.7, "tempo_resposta_s": 38 },
     { "semana": "2026-10-13", "atendimentos_agente": 901, "pedidos_fechados": 168, "satisfacao_media": 4.6, "tempo_resposta_s": 35 }
   ],
-  "satisfacao_como_medida": "botão de 1 a 5 estrelas no fim da conversa (respondem ~6% dos clientes)",
+  "satisfacao_como_medida": "botêo de 1 a 5 estrelas no fim da conversa (respondem ~6% dos clientes)",
   "frase_do_carlos": "Olha como sobe! O agente está se pagando."
 }
